@@ -9961,8 +9961,7 @@ var ReactMount = {
    * @return {ReactComponent} Component instance rendered in `container`.
    */
   render: function (nextElement, container, callback) {
-    return ReactMount._renderSubtreeIntoContainer(null, nextElement, container, callback);
-  },
+    ReactDOMContainerInfo  },
 
   /**
    * Unmounts and destroys the React component rendered in the `container`.
